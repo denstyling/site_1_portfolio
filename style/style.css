@@ -20,6 +20,9 @@ body{
  
 
 /* Our story */
+.story{
+    padding: 50px 0;
+}
 .story_left{
     max-width: 398px;
     margin-right: 50px;
@@ -33,19 +36,22 @@ body{
     margin: 10px auto 0;
 }
 .story_title_2{
+    color:#48555B;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .story_title_3{
+    color:#48555B;
     font-weight: bold;
     font-size: 20px;
 }
 .story_inner{
     display: flex;
+    justify-content: center;
 }
 .accent_color{
     color: #00A4E5;
@@ -73,4 +79,28 @@ body{
 .story_item:nth-child(3){
     background-image: url(../img/img2.png);
     margin-right: 0;
+}
+
+/* Медиазапрос */
+@media screen and (max-width:1440px){
+    .container {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width:1024px){
+    .container {
+        padding: 0 15px;
+    }
+    .story_inner{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:500px){
+     
+    .story_right{
+        flex-wrap: wrap;
+    }
+    .story_item{
+        margin-bottom: 20px;
+    }
 }
