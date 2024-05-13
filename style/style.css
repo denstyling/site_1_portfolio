@@ -12,9 +12,9 @@ body{
 }
 
 .container {
-    overflow: hidden;
+     
     width: 100%;
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 250px;
 }
